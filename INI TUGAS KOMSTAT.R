@@ -9,4 +9,7 @@ boxplot(mtcars$mpg,
         main = "Boxplot Efisiensi Bahan Bakar (mpg)", 
         ylab = "Miles Per Gallon (mpg)", 
         col = "lightgreen")
-
+# ==========================================
+data_tambahan <- c(10, 20, 30, 40, 50)
+mean_tambahan <- mean(data_tambahan)
+print(mean_tambahan)
